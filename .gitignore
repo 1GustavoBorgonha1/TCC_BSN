@@ -1,0 +1,40 @@
+#Nome privados
+Clockify_Time_Report_Detailed_*.csv
+mapeamento_privado.csv
+
+#Credenciais
+*.env
+.streamlit/secrets.toml
+
+#Artefatos
+modelos/
+*.joblib
+clockify_unificado_mascarado.csv
+demandas.csv
+demandas_filtradas.csv
+dataset_final.csv
+cache_movidesk/
+
+# Documentos
+*.pdf
+*.docx
+~$*
+
+# Ferramentas
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+# Backup local do banco (contém nomes reais)
+backup_banco/
+
+# Credenciais
+.env.*
+# Editor / SO
+.vscode/
+Thumbs.db
